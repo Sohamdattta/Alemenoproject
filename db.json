@@ -1,19 +1,181 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+    "courses": [
+      {
+        "id": 1,
+        "name": "Introduction to React Native",
+        "instructor": "John Doe",
+        "description": "Learn the basics of React Native development and build your first mobile app.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+        "duration": "8 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:00 PM-8:00 PM",
+        "location": "Online",
+        "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to React Native",
+            "content": "Overview of React Native, setting up your development environment."
+          },
+          {
+            "week": 2,
+            "topic": "Building Your First App",
+            "content": "Creating a simple mobile app using React Native components."
+          }
+        ],
+        "students": [
+          {
+            "id": 101,
+            "name": "Alice Johnson",
+            "email": "alice@example.com"
+          },
+          {
+            "id": 102,
+            "name": "Bob Smith",
+            "email": "bob@example.com"
+          }
+        ]
+      }, {
+        "id": 2,
+        "name": "Introduction to React JS",
+        "instructor": "John Doe",
+        "description": "Learn the basics of React Native development and build your first mobile app.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+        "duration": "6 weeks",
+        "schedule": "Mondays and Thursdays, 6:00 PM-8:00 PM",
+        "location": "Online",
+        "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to React JS",
+            "content": "Overview of React JS, setting up your development environment."
+          },
+          {
+            "week": 2,
+            "topic": "Building Your First Website",
+            "content": "Creating a simple website using React JS components."
+          }
+        ],
+        "students": [
+          {
+            "id": 201,
+            "name": "Alice Johnson",
+            "email": "alice@example.com"
+          },
+          {
+            "id": 202,
+            "name": "Bob Smith",
+            "email": "bob@example.com"
+          }
+        ]
+      }, {
+        "id": 3,
+        "name": "Introduction to Angular JS",
+        "instructor": "Simmon Bash",
+        "description": "Learn the basics of Angular development and build your first web.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://www.etatvasoft.com/blog/wp-content/uploads/2017/01/b-thumb-img12.jpg",
+        "duration": "10 weeks",
+        "schedule": "Mondays and Thursdays, 6:00 PM-8:00 PM",
+        "location": "Online",
+        "prerequisites": ["Basic JavaScript knowledge", "Familiarity with Angular"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to Angular JS",
+            "content": "Overview of Angular JS, setting up your development environment."
+          },
+          {
+            "week": 2,
+            "topic": "Building Your First Website",
+            "content": "Creating a simple website using React JS components."
+          }
+        ],
+        "students": [
+          {
+            "id": 301,
+            "name": "Alice Johnson",
+            "email": "alice@example.com"
+          },
+          {
+            "id": 302,
+            "name": "Bob Smith",
+            "email": "bob@example.com"
+          }
+        ]
+      }, {
+        "id": 4,
+        "name": "Introduction to flutter",
+        "instructor": "John Doe",
+        "description": "Learn the basics of flutter and build your first mobile app.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://storage.googleapis.com/cms-storage-bucket/70760bf1e88b184bb1bc.png",
+        "duration": "6 weeks",
+        "schedule": "Mondays and Thursdays, 6:00 PM-8:00 PM",
+        "location": "Online",
+        "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to flutter",
+            "content": "Overview of React JS, setting up your development environment."
+          },
+          {
+            "week": 2,
+            "topic": "Building Your First Website",
+            "content": "Creating a simple website using React JS components."
+          }
+        ],
+        "students": [
+          {
+            "id": 401,
+            "name": "Alice Johnson",
+            "email": "alice@example.com"
+          },
+          {
+            "id": 402,
+            "name": "Bob Smith",
+            "email": "bob@example.com"
+          }
+        ]
+      }, {
+        "id": 5,
+        "name": "Introduction to Python",
+        "instructor": "Josh Mcmilan",
+        "description": "Learn the basics of Pyhton development and build your project.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPTsP4f0KnPd7hu7FWVIN-oNRY6-JUA794YTuNyDIx&s",
+        "duration": "6 weeks",
+        "schedule": "Mondays and Thursdays, 6:00 PM-8:00 PM",
+        "location": "Online",
+        "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to python",
+            "content": "Overview of python, setting up your development environment."
+          },
+          {
+            "week": 2,
+            "topic": "Building Your First Website",
+            "content": "Creating a simple website using python components."
+          }
+        ],
+        "students": [
+          {
+            "id": 501,
+            "name": "Alice Johnson",
+            "email": "alice@example.com"
+          },
+          {
+            "id": 502,
+            "name": "Bob Smith",
+            "email": "bob@example.com"
+          }
+        ]
+      }
+    ]
   }
-}
+  
