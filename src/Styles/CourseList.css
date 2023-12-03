@@ -1,0 +1,32 @@
+
+
+.course-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s ease-in-out;
+    box-shadow:rgba(0, 0, 0, 0.5) ;
+    background-color: rgb(47, 99, 171);
+  }
+  .course-card:last-child {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+  .course-card:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    box-shadow: 0 0 10px rgba(220, 46, 46, 0.2); /* Add shadow on hover */
+  }
+  .course-thumbnail {
+    max-width: 100%;
+    height: auto;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    /* height: 100vh; */
+  }

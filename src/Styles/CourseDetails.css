@@ -1,0 +1,44 @@
+/* CourseDetails.css */
+
+.course-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .course-details-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .course-details-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .course-details-content h2 {
+    color: #333;
+  }
+  
+  .course-details-content p {
+    margin-bottom: 15px;
+  }
+  
+  .syllabus-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .syllabus-item {
+    margin-bottom: 10px;
+  }
+  
+  .syllabus-item h4 {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Add more styles as needed */
+  

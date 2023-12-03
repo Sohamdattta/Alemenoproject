@@ -28,6 +28,101 @@
   color: #61dafb;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  /* height: 100vh; */
+}
+
+/* styles.css */
+
+/* App Container */
+.app-container {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Banner Section */
+.banner-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Home Page Content */
+.home-content {
+  text-align: center;
+}
+
+/* Course Listing */
+.course-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  max-width: 300px;
+}
+img{
+width: 1450px;
+height: 500px;
+}
+/* styles.css */
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Social Media Icons */
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Hover effect for social media icons */
+.social-icons a:hover {
+  color: #61dafb; /* Change the color on hover */
+}
+
+/* Add more styles as needed */
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
