@@ -8,7 +8,7 @@ import '../Styles/CourseList.css';
 const CourseListingPage = () => {
   const dispatch = useDispatch();
   const courses = useSelector((state) => state.courses.courses);
-  console.log('Coursessssssssss:', courses);
+  
   useEffect(() => {
     dispatch(fetchCourses());
   }, [dispatch]);
